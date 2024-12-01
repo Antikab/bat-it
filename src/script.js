@@ -58,11 +58,11 @@ document.body.addEventListener('touchmove', (e) => {
 });
 
 removeMaskButton.addEventListener('click', () => {
-	if (avatar.src.includes('bhueyye.jpeg')) {
-		avatar.src = 'https://i.imgur.com/ZH1Mtjx.jpeg';
+	if (avatar.src.includes('noMask.jpg')) {
+		avatar.src = '/bat-it/addMask.jpg';
 		removeMaskButton.textContent = 'Снять маску';
 	} else {
-		avatar.src = 'https://i.imgur.com/bhueyye.jpeg';
+		avatar.src = '/bat-it/noMask.jpg';
 		removeMaskButton.textContent = 'Надеть маску';
 	}
 });
